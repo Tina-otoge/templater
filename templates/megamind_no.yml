@@ -1,0 +1,12 @@
+params:
+  text:
+    required: true
+
+items:
+  - https://cdn.discordapp.com/attachments/474592371968049207/1099024413602619392/image.png
+
+  - type: text
+    bind: text
+    position: 10 5
+    color: white
+    font_size: 30

@@ -1,0 +1,15 @@
+params:
+  profile_ids:
+    type: list[int]
+
+
+items:
+  - name: background
+
+  - name: avatars
+    type: group
+
+scripts:
+  - src: pick_schema.py
+  - src: place_discord_avatars.py
+
